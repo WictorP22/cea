@@ -74,17 +74,5 @@
         }, 2000);
     });
 
-    function avatar() {
-        var url1 = 'http://www.habbo.com.br/habbo-imaging/avatarimage?&user=';
-        var url2 = '&action=std&direction=2&head_direction=2&img_format=png&gesture=std&headonly=0&size=l';
-        var nome = $('.input100').val();
-        var junta = url1+nome+url2;
-        $('#avat').attr("src",junta);
-    }
-
-    $("#consult").click(function() {
-        $("#resultado").slideDown();
-        avatar();
-    });
-    
+ 
 })(jQuery);
